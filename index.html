@@ -14,19 +14,17 @@
 <nav>
     <h2 class="logo">Vaishnavi Mane</h2>
     <ul>
-        <li><a href="#" onclick="showSection('home')">Home</a></li>
-        <li><a href="#" onclick="showSection('about')">About</a></li>
-        <li><a href="#" onclick="showSection('experience')">Experience</a></li>
-        <li><a href="#" onclick="showSection('skills')">Skills</a></li>
-        <li><a href="#" onclick="showSection('projects')">Projects</a></li>
-        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
-<!-- HOME -->
-<section id="home" class="section active">
-<div class="hero">
-
+<!-- HERO SECTION -->
+<section id="home" class="hero">
     <div class="hero-text">
         <h1>Vaishnavi Mane</h1>
         <h3>Aspiring Data Analyst | Data Science Enthusiast</h3>
@@ -36,32 +34,56 @@
             data analytics and machine learning. Focused on solving real-world 
             problems through analytical thinking and data-driven decision making.
         </p>
+        <div class="buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="resume.pdf" class="btn-outline" download>Download Resume</a>
+        </div>
     </div>
 
-    <!-- NEW PLACEHOLDER -->
-    <div class="placeholder-box">
-        <h3>Future Achievement</h3>
-        <p>You can place certifications, awards, or highlights here.</p>
+    <div class="hero-img">
+        <img src="profile.jpg" alt="Vaishnavi Mane">
     </div>
-
-</div>
 </section>
 
 <!-- ABOUT -->
 <section id="about" class="section">
 <h2>About Me</h2>
-<p>
-I am passionate about uncovering insights from data and applying analytical thinking
-to solve business challenges.
-</p>
+<div class="about-grid">
+    <div>
+        <p>
+            I am passionate about uncovering insights from data and applying 
+            analytical thinking to solve business and real-world challenges. 
+            I continuously enhance my knowledge in data analysis, visualization, 
+            and machine learning through hands-on projects.
+        </p>
+        <p>
+            My goal is to begin my career as a Data Analyst and grow into a 
+            data professional contributing to impactful, data-driven solutions.
+        </p>
+    </div>
+
+    <div class="education-card">
+        <h3>Education</h3>
+        <p><strong>B.E. Computer Science Engineering</strong></p>
+        <p>Sharadchandra Pawar College of Engineering</p>
+        <p>Expected Graduation: 2026</p>
+    </div>
+</div>
 </section>
 
 <!-- EXPERIENCE -->
-<section id="experience" class="section">
+<section id="experience" class="section bg-light">
 <h2>Experience</h2>
 <div class="card">
     <h3>Data Analyst Intern</h3>
-    <p>Analytics Career Connect | Feb 2026 – Present</p>
+    <p><strong>Analytics Career Connect</strong> | Feb 2026 – Present</p>
+    <ul>
+        <li>Performed data cleaning and preprocessing on real-world datasets</li>
+        <li>Conducted Exploratory Data Analysis (EDA)</li>
+        <li>Generated actionable insights for data-driven decisions</li>
+        <li>Created structured reports and visualizations</li>
+        <li>Enhanced practical data analytics skills</li>
+    </ul>
 </div>
 </section>
 
@@ -69,48 +91,98 @@ to solve business challenges.
 <section id="skills" class="section">
 <h2>Skills</h2>
 <div class="skills-grid">
-<div class="skill-card">Python, MySQL</div>
-<div class="skill-card">Power BI, Tableau, Excel</div>
-<div class="skill-card">EDA, ML, Visualization</div>
+
+<div class="skill-card">
+<h3>Programming</h3>
+<p>Python, MySQL</p>
+</div>
+
+<div class="skill-card">
+<h3>Tools & Technologies</h3>
+<p>Power BI, Tableau, Microsoft Excel</p>
+</div>
+
+<div class="skill-card">
+<h3>Data Analysis & ML</h3>
+<p>EDA, Data Cleaning, Visualization, Statistical Analysis, Basic Machine Learning, Data Interpretation</p>
+</div>
+
+<div class="skill-card">
+<h3>Soft Skills</h3>
+<p>Analytical Thinking, Problem Solving, Communication, Attention to Detail, Continuous Learning</p>
+</div>
+
 </div>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="section">
+<section id="projects" class="section bg-light">
 <h2>Projects</h2>
+
 <div class="projects-grid">
-<div class="project-card">Customer Segmentation</div>
-<div class="project-card">HR Attrition Analysis</div>
-<div class="project-card">Superstore Sales</div>
-<div class="project-card">COVID Analysis</div>
-<div class="project-card">Social Media Dashboard</div>
-<div class="project-card">Road Accident Dashboard</div>
+
+<div class="project-card">
+<h3>Customer Segmentation Analysis</h3>
+<p>Applied RFM Analysis and K-Means clustering to segment customers and develop targeted marketing insights.</p>
+<span>Python | Pandas | Scikit-learn | Power BI</span>
+</div>
+
+<div class="project-card">
+<h3>HR Employee Attrition Analysis</h3>
+<p>Analyzed employee data and applied ML models to identify key factors influencing attrition.</p>
+<span>Python | Logistic Regression | Random Forest | Decision Tree</span>
+</div>
+
+<div class="project-card">
+<h3>Superstore Sales Analysis</h3>
+<p>Identified revenue trends and regional performance insights using EDA techniques.</p>
+<span>Python | Pandas | Matplotlib | Seaborn</span>
+</div>
+
+<div class="project-card">
+<h3>COVID-19 Global Impact Analysis</h3>
+<p>Analyzed global pandemic trends including confirmed cases and vaccinations.</p>
+<span>Python | Excel | Jupyter Notebook</span>
+</div>
+
+<div class="project-card">
+<h3>Social Media Engagement & Virality Dashboard</h3>
+<p>Built interactive dashboard to track engagement metrics and content performance.</p>
+<span>Power BI</span>
+</div>
+
+<div class="project-card">
+<h3>Road Accident Data Analysis Dashboard</h3>
+<p>Analyzed accident trends and casualty statistics for safety awareness insights.</p>
+<span>Microsoft Excel</span>
+</div>
+
 </div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact" class="section">
 <h2>Contact</h2>
+
 <p>Email: vaishnavimane8080@gmail.com</p>
-<p>LinkedIn | GitHub</p>
+<p>Phone: 8080890421</p>
+<p>Location: Latur, Maharashtra, India</p>
+
+<p class="social-links">
+LinkedIn:
+<a href="https://www.linkedin.com/in/vaishnavi-mane-140629281" target="_blank">View Profile</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+GitHub:
+<a href="https://github.com/Vaishnavi638" target="_blank">View GitHub</a>
+</p>
+
 </section>
 
 <footer>
-<p>© 2026 Vaishnavi Mane</p>
+<p>© 2026 Vaishnavi Mane | Data Analyst Portfolio</p>
 </footer>
-
-<!-- JAVASCRIPT FOR TAB SWITCHING -->
-<script>
-function showSection(sectionId) {
-
-    const sections = document.querySelectorAll('.section');
-    sections.forEach(section => {
-        section.classList.remove('active');
-    });
-
-    document.getElementById(sectionId).classList.add('active');
-}
-</script>
 
 </body>
 </html>
