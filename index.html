@@ -1,69 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Vaishnavi Mane | Data Analyst Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaishnavi Mane | Data Analyst Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header>
+<!-- NAVBAR -->
+<nav>
+    <h2 class="logo">Vaishnavi Mane</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-text">
         <h1>Vaishnavi Mane</h1>
-        <p>Aspiring Data Analyst | Data Science Enthusiast</p>
-    </header>
-
-    <section>
-        <h2>About Me</h2>
+        <h3>Aspiring Data Analyst | Data Science Enthusiast</h3>
+        <p class="tagline">Transforming Data into Meaningful Insights</p>
         <p>
-            I am a final-year B.E. Computer Science Engineering student passionate about data analytics and machine learning.
-            I enjoy working with data to uncover insights and solve real-world problems through analytical thinking.
+            Final-year B.E. Computer Science Engineering student passionate about 
+            data analytics and machine learning. Focused on solving real-world 
+            problems through analytical thinking and data-driven decision making.
         </p>
-    </section>
-
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>MySQL</li>
-            <li>Power BI</li>
-            <li>Tableau</li>
-            <li>Excel</li>
-            <li>EDA & Data Cleaning</li>
-            <li>Basic Machine Learning</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-
-        <div class="project">
-            <h3>Customer Segmentation Analysis</h3>
-            <p>Used RFM analysis and K-Means clustering to segment customers and generate marketing insights.</p>
+        <div class="buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="resume.pdf" class="btn-outline" download>Download Resume</a>
         </div>
+    </div>
 
-        <div class="project">
-            <h3>HR Employee Attrition Analysis</h3>
-            <p>Analyzed employee data and applied ML models to identify key attrition factors.</p>
-        </div>
+    <div class="hero-img">
+        <img src="profile.jpg" alt="Vaishnavi Mane">
+    </div>
+</section>
 
-        <div class="project">
-            <h3>Superstore Sales Analysis</h3>
-            <p>Performed EDA to identify sales trends and regional performance insights.</p>
-        </div>
+<!-- ABOUT -->
+<section id="about" class="section">
+<h2>About Me</h2>
+<div class="about-grid">
+    <div>
+        <p>
+            I am passionate about uncovering insights from data and applying 
+            analytical thinking to solve business and real-world challenges. 
+            I continuously enhance my knowledge in data analysis, visualization, 
+            and machine learning through hands-on projects.
+        </p>
+        <p>
+            My goal is to begin my career as a Data Analyst and grow into a 
+            data professional contributing to impactful, data-driven solutions.
+        </p>
+    </div>
 
-    </section>
+    <div class="education-card">
+        <h3>Education</h3>
+        <p><strong>B.E. Computer Science Engineering</strong></p>
+        <p>Sharadchandra Pawar College of Engineering</p>
+        <p>Expected Graduation: 2026</p>
+    </div>
+</div>
+</section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: vaishnavimane8080@gmail.com</p>
-        <p>LinkedIn: www.linkedin.com/in/vaishnavi-mane-140629281</p>
-        <p>GitHub: github.com/Vaishnavi638</p>
-        <p>Location: Latur, Maharashtra, India</p>
-    </section>
+<!-- EXPERIENCE -->
+<section id="experience" class="section bg-light">
+<h2>Experience</h2>
+<div class="card">
+    <h3>Data Analyst Intern</h3>
+    <p><strong>Analytics Career Connect</strong> | Feb 2026 – Present</p>
+    <ul>
+        <li>Performed data cleaning and preprocessing on real-world datasets</li>
+        <li>Conducted Exploratory Data Analysis (EDA)</li>
+        <li>Generated actionable insights for data-driven decisions</li>
+        <li>Created structured reports and visualizations</li>
+        <li>Enhanced practical data analytics skills</li>
+    </ul>
+</div>
+</section>
 
-    <footer>
-        <p>© 2026 Vaishnavi Mane | All Rights Reserved</p>
-    </footer>
+<!-- SKILLS -->
+<section id="skills" class="section">
+<h2>Skills</h2>
+<div class="skills-grid">
+
+<div class="skill-card">
+<h3>Programming</h3>
+<p>Python, MySQL</p>
+</div>
+
+<div class="skill-card">
+<h3>Tools</h3>
+<p>Power BI, Tableau, Excel</p>
+</div>
+
+<div class="skill-card">
+<h3>Data Analysis</h3>
+<p>EDA, Data Cleaning, Visualization, Statistical Analysis, Basic ML</p>
+</div>
+
+<div class="skill-card">
+<h3>Soft Skills</h3>
+<p>Analytical Thinking, Problem Solving, Communication, Attention to Detail</p>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section bg-light">
+<h2>Projects</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+<h3>Customer Segmentation Analysis</h3>
+<p>Applied RFM Analysis and K-Means clustering to segment customers and develop targeted marketing insights.</p>
+<span>Python | Pandas | Scikit-learn | Power BI</span>
+</div>
+
+<div class="project-card">
+<h3>HR Employee Attrition Analysis</h3>
+<p>Analyzed employee data and applied ML models to identify key factors influencing attrition.</p>
+<span>Python | Logistic Regression | Random Forest</span>
+</div>
+
+<div class="project-card">
+<h3>Superstore Sales Analysis</h3>
+<p>Identified revenue trends and regional performance insights using EDA techniques.</p>
+<span>Python | Pandas | Matplotlib</span>
+</div>
+
+<div class="project-card">
+<h3>COVID-19 Global Impact Analysis</h3>
+<p>Analyzed global pandemic trends including confirmed cases and vaccinations.</p>
+<span>Python | Excel | Jupyter Notebook</span>
+</div>
+
+<div class="project-card">
+<h3>Social Media Engagement Dashboard</h3>
+<p>Built interactive dashboard to track engagement metrics and content performance.</p>
+<span>Power BI</span>
+</div>
+
+<div class="project-card">
+<h3>Road Accident Analysis Dashboard</h3>
+<p>Analyzed accident trends and casualty statistics for safety awareness insights.</p>
+<span>Microsoft Excel</span>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+<h2>Contact</h2>
+
+<p>Email: vaishnavimane8080@gmail.com</p>
+<p>Phone: 8080890421</p>
+<p>Location: Latur, Maharashtra, India</p>
+<p>
+LinkedIn: <a href="https://www.linkedin.com/in/vaishnavi-mane-140629281" target="_blank">View Profile</a><br>
+GitHub: <a href="https://github.com/Vaishnavi638" target="_blank">View GitHub</a>
+</p>
+
+</section>
+
+<footer>
+<p>© 2026 Vaishnavi Mane | Data Analyst Portfolio</p>
+</footer>
 
 </body>
 </html>
