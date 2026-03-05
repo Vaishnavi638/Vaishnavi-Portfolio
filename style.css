@@ -57,7 +57,7 @@ color: #0f1f4b;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 160px 10%;   /* increased spacing */
+padding: 80px 10%;
 }
 
 .hero-text {
@@ -114,7 +114,7 @@ border-radius: 50%;
 
 /* SECTIONS */
 .section {
-padding: 160px 10%;   /* increased spacing */
+padding: 80px 10%;
 }
 
 .bg-light {
