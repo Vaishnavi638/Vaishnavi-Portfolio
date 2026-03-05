@@ -6,6 +6,33 @@
 <title>Vaishnavi Mane | Data Analyst Portfolio</title>
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav a");
+
+    // Show only home at start
+    sections.forEach(section => section.classList.remove("active"));
+    document.getElementById("home").classList.add("active");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute("href").substring(1);
+
+            sections.forEach(section => {
+                section.classList.remove("active");
+            });
+
+            document.getElementById(targetId).classList.add("active");
+        });
+    });
+
+});
+</script>
 </head>
 
 <body>
