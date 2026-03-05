@@ -207,7 +207,8 @@ footer {
 }
 
 
-/* HERO IMAGE PLACEHOLDER */
+/* HERO IMAGE PLACEHOLDER - Clean Version */
+
 .hero-image-wrapper {
     display: flex;
     justify-content: center;
@@ -217,15 +218,16 @@ footer {
 .image-placeholder {
     width: 300px;
     height: 360px;
-    background: linear-gradient(135deg, #2563eb, #60a5fa);
-    padding: 6px;
+    background-color: #ffffff;   /* clean white */
+    padding: 8px;
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);  /* soft shadow */
+    border: 1px solid #e5e7eb;   /* light professional border */
 }
 
 .image-placeholder img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 15px;
 }
