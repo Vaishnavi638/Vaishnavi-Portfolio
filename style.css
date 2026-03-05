@@ -215,14 +215,29 @@ footer {
     align-items: center;
 }
 
+/* ===== HERO IMAGE CLEAN PROFESSIONAL STYLE ===== */
+
+.hero-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image-placeholder {
-    width: 300px;
-    height: 360px;
-    background-color: #ffffff;   /* clean white */
-    padding: 8px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);  /* soft shadow */
-    border: 1px solid #e5e7eb;   /* light professional border */
+    width: 320px;
+    height: 380px;
+    background-color: #ffffff !important;
+    padding: 10px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
 }
 
 .image-placeholder img {
