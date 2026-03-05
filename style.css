@@ -57,7 +57,7 @@ color: #0f1f4b;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 80px 10%;
+padding: 160px 10%;   /* increased spacing */
 }
 
 .hero-text {
@@ -114,7 +114,7 @@ border-radius: 50%;
 
 /* SECTIONS */
 .section {
-padding: 80px 10%;
+padding: 160px 10%;   /* increased spacing */
 }
 
 .bg-light {
@@ -201,31 +201,4 @@ text-align: center;
 padding: 30px;
 background: #1f3c88;
 color: white;
-}
-
-/* ===== SINGLE VIEW SECTION SYSTEM ===== */
-
-/* Make all sections full screen */
-section {
-min-height: 100vh;
-display: none;
-padding-top: 140px; /* space for fixed navbar */
-}
-
-/* Show active section */
-section.active {
-display: block;
-}
-
-/* Prevent body scrolling */
-body {
-overflow: hidden;
-}
-
-/* Keep navbar fixed */
-nav {
-position: fixed;
-width: 100%;
-top: 0;
-left: 0;
 }
